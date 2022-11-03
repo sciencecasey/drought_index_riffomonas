@@ -1,0 +1,10 @@
+# save a conda environment file
+# also add a .Rprofile to ensure it's looking for libraries in the correct .libPaths()
+name: drought
+channels:
+  - conda-forge
+  - base
+  - R
+dependencies:
+  - r-base=4.1.3
+  - r-tidyverse=1.3.2

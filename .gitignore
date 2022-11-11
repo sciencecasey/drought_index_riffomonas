@@ -4,6 +4,10 @@
 
 # Session Data files
 .RData
+/data # data directory
+
+# Snake program
+.snakemake
 
 # User-specific files
 .Ruserdata
